@@ -16,7 +16,7 @@ https://www.kaggle.com/nikdavis/steam-store-games
 
 ## Approach
 
-
+![alt text](https://github.com/isuhail/Impact-of-Game-Release-Date-on-Popularity/blob/Methodology.png?raw=true)
 
 Ideally, to understand the effect of release date on popularity, an experiment should have been  conducted such that similar games are released randomly on different dates. Since we are dealing with observational data, we need to find pairs of treated units and control units that are as similar as possible on  price, game quality (based on ratings and average play time), genre, and category such that the choice of the release date for the game can be considered as good as random and not getting affected by these factors. Therefore the matching technique has been used. After matching, we conduct a regression to detect the causal relationship purely between game popularity and treatment. 
 
